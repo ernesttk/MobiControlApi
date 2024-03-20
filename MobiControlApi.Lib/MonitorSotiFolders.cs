@@ -54,7 +54,7 @@ namespace MobiControlApi
             // Validate connnection to the MC server
             if (mcApi == null)
             {
-                // Validate connnection to the MC server
+                // Validate connection to the MC server
                 mcApi = new Api(MobiControlApiConfig, token, httpClient);
 
             }
@@ -77,7 +77,7 @@ namespace MobiControlApi
 
                 if (mcApi == null)
                 {
-                    // Validate connnection to the MC server
+                    // Validate connection to the MC server
                     mcApi = new Api(MobiControlApiConfig, token, httpClient);
 
                 }
@@ -130,7 +130,7 @@ namespace MobiControlApi
             try
             {
                 if (mcApi == null)
-                    // Validate connnection to the MC server
+                // Validate connection to the MC server
                     mcApi = new Api(MobiControlApiConfig, token, httpClient);
 
                 // Itterate over monitored groups and return device list
@@ -159,7 +159,7 @@ namespace MobiControlApi
             try
             {
                 if (mcApi == null)
-                    // Validate connnection to the MC server
+                    // Validate connection to the MC server
                     mcApi = new Api(MobiControlApiConfig, token, httpClient);
 
                 // Itterate over monitored groups and return device dict
@@ -185,7 +185,7 @@ namespace MobiControlApi
             try
             {
                 if (mcApi == null)
-                    // Validate connnection to the MC server
+                    // Validate connection to the MC server
                     mcApi = new Api(MobiControlApiConfig, token, httpClient);
 
                 // Itterate over monitored groups and return device dict

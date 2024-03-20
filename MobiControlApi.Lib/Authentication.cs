@@ -45,9 +45,6 @@ namespace MobiControlApi
             //grant_type=password&username=Administrator&password=1
             grant_type = "grant_type=password&username=" + config.Username + "&password=" + config.Password;
 
-
-
-
         }
         
 		// Get authentication token and lat caller konw it it's new

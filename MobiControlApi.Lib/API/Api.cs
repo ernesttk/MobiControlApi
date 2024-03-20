@@ -17,7 +17,7 @@ namespace MobiControlApi
 
         private readonly Authentication authentication;
 
-        // SOTI API can accecss device from either the search DB og the traditional DB
+        // SOTI API can access device from either the search DB og the traditional DB
         public bool useSearchDbToGetDevices = true;
 
         // 
@@ -99,7 +99,7 @@ namespace MobiControlApi
 
 
 
-        // This is the lowest level of the API - accepting raw resource path and retruning a json string
+        // This is the lowest level of the API - accepting raw resource path and returning a json string
         #region low level SOTI REST Web API 
 
         // Get json
